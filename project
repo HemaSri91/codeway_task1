@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <style>
+        *{
+        background-color:rgb(185, 138, 185);
+            background-size: cover;
+        }
+        img{
+      height: 150px;
+	  width: 250px;
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+      
+    }
+    </style>
+    <h1>Projects</h1>
+    <h2>Gold price forecast</h2>
+    <img src ="gold.jpg"  class="center">
+    <p>To build gold price prediction we followed these steps Problem Formulation , Data preprocessing , Data wrangling , Model Development , Model Explainability , Model Deployment.</p>
+    <p>Gold behaves as a currency, so, just as with other currencies, the demand for gold comes from the marginal buyers of gold. For instance, if the demand of gold increases, it means that buyers of gold value gold more highly and thus are willing to pay a higher price.</p>
+    <footer><a href="Gold price forecast.pdf"> get gold price forecast pdf </a></footer>
+    <h2>Quality sleep and healthy life style</h2>
+    <img src ="sleep.jpg">
+    <p>The objective of this study was to evaluate the feasibility of 
+        predicting sleep quality (i.e., poor or adequate sleep efficiency) given 
+        the physical activity wearable data during awake time. In this study, 
+        we focused on predicting good or poor sleep efficiency as an 
+        indicator of sleep quality.</p>
+    <p>Some habits that can improve your sleep health: Be consistent. Go to bed at the same time each night and get up at the same time each morning, including on the weekends. Make sure your bedroom is quiet, dark, relaxing, and at a comfortable temperature.</p>    
+    <h2>Travel Website</h2>
+    <img src ="travel.jpg">
+    <p>The purpose of travel sites is to make it easier for people to plan and book their trips.
+
+        They provide a wide range of services, from helping you find the best deals on flights and hotels, to providing detailed information about destinations around the world.
+        
+        With these tools at your disposal, you can easily compare prices and amenities between different locations so that you can get the most out of your trip.</p>
+        
+       <p> Additionally, many travel sites offer helpful tips on how to save money while traveling or even provide discounts for certain activities or attractions in certain areas.
+        
+        Ultimately, they are designed with one goal in mind: making sure that travelers have an enjoyable experience when they go away!</p>
+</head>
