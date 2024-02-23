@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-color:rgb(185, 138, 185);
+            background-size: cover;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: medium;
+            text-align: center;
+        }
+        section {
+            text-align: center;
+        }
+        ul {
+            font-size: small;
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding */
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 1em;
+        }
+        table {
+            margin: 0 auto; /* Center the table horizontally */
+        }
+        th, td {
+            padding: 10px; /* Add padding to cells for better spacing */
+        }
+    </style>
+</head>
+<body>
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="logo0.png" alt="pic"/>
+                </div>
+                <div class="col-lg-8">
+                    <h3>Details</h3>
+                    <ul>
+                        <li>Name: M.HemaSri</li>
+                        <li>Age: 20</li>
+                        <li>Place: Rajahmundry</li>
+                    </ul>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Web development</li>
+                        <li>Java</li>
+                        <li>DSA</li>
+                    </ul>
+                    <table border="3">
+                        <tr>
+                            <th>Duration</th>
+                            <th>Institution</th>
+                            <th>Qualification</th>
+                            <th>Grade</th>
+                        </tr>
+                        <tr>
+                            <td>2019-2020</td>
+                            <td>Sri Chaitanya Techno School</td>
+                            <td>10th</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>2020-2022</td>
+                            <td>Sri Chaitanya Junior College</td>
+                            <td>Intermediate</td>
+                            <td>8.7</td>
+                        </tr>
+                        <tr>
+                            <td>2022-present</td>
+                            <td>Vishnu Institute of Technology</td>
+                            <td>B.tech</td>
+                            <td>8.7</td>
+                        </tr>
+                    </table>
+                    <div class="row mt-3">
+                        <p>I consider myself a responsible and orderly person. I am looking forward to my first work experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
